@@ -1,1 +1,26 @@
-
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build and Run OpenCV",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "main.cpp",
+          "-o",
+          "app",
+          "-I/opt/homebrew/opt/opencv/include/opencv4",
+          "-L/opt/homebrew/opt/opencv/lib",
+          "-lopencv_core",
+          "-lopencv_highgui",
+          "-lopencv_imgcodecs",
+          "-lopencv_imgproc",
+          "&&",
+          "./app"
+        ],
+        "group": "build",
+        "problemMatcher": [],
+        "detail": "Build and run C++ OpenCV project"
+      }
+    ]
+  }
