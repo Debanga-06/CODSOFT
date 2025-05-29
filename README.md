@@ -72,11 +72,13 @@ A robust C++ application (with OpenCV) that allows users to perform image operat
 ```bash
 g++ Project 01 -o game./game
 
-### Compile for Project 5 : 
+### Compile for Project 5 :
 
 ```bash
 g++ Project 05 -o image_tool `pkg-config --cflags --libs opencv4`
-./image_tool
+./image_tool 
+
+### 📁 Repository Structure : 
 
 📁 CODSOFT/
 ├── Project 01
