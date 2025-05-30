@@ -69,12 +69,12 @@ A robust C++ application (with OpenCV) that allows users to perform image operat
 
 ### Compile any basic project (e.g., Project 1–4):
 
-```bash
+ ``bash
 g++ Project 01 -o game./game
 
 ### Compile for Project 5 :
 
-```bash
+``bash
 g++ Project 05 -o image_tool `pkg-config --cflags --libs opencv4`
 ./image_tool 
 
